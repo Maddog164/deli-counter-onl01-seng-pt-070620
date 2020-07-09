@@ -10,7 +10,7 @@ def line(array)
     message = "The line is currently empty."
   else
     #binding.pry
-    message = "The line is currently: "
+    message = "The line is currently:"
     #binding.pry
     counter = 0
     #binding.pry
