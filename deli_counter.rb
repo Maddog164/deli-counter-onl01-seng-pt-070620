@@ -28,6 +28,6 @@ def take_a_number(array,name)
   array.each do |name|
     arraycount += 1
   end
-  puts "#{name}, you are #{arraycount} in line."
+  puts "Welcome, #{name}. You are number #{arraycount} in line."
 
 end
