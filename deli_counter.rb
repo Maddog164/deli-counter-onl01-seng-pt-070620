@@ -32,6 +32,7 @@ def take_a_number(array,name)
 end
 
 def now_serving(array)
+  arraycount = 0
   array.each do |name|
     arraycount += 1
   end
