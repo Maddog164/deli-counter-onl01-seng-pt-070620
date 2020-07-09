@@ -37,10 +37,10 @@ def now_serving(array)
     arraycount += 1
   end
   if arraycount == 0
-    puts "There is nobody waiting to be served"
+    puts "There is nobody waiting to be served!"
   else
     currentname = array[0]
     puts "Currently serving #{currentname}."
-    array.pop
+    array.shift
   end
 end
