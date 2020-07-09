@@ -26,5 +26,5 @@ def line(array)
       #binding.pry
     end
    end
-   return message
+   puts message
 end
