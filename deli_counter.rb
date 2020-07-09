@@ -38,5 +38,5 @@ def now_serving(array)
   if arraycount == 0
     puts "There is nobody waiting to be served"
   else
-    puts 
+    puts
   
