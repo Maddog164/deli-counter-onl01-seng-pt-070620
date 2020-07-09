@@ -24,5 +24,10 @@ end
 
 def take_a_number(array,name)
   array.push(name)
+  arraycount = 0
+  array.each do |name|
+    arraycount += 1
+  end
+  puts "#{name}, you are #{arraycount} in line."
 
 end
