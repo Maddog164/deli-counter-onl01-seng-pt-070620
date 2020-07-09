@@ -30,3 +30,13 @@ def take_a_number(array,name)
   end
   puts "Welcome, #{name}. You are number #{arraycount} in line."
 end
+
+def now_serving(array)
+  array.each do |name|
+    arraycount += 1
+  end
+  if arraycount == 0
+    puts "There is nobody waiting to be served"
+  else
+    puts 
+  
