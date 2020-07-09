@@ -15,7 +15,7 @@ def line(array)
     counter = 0
     #binding.pry
     while counter < arraycount
-      binding.pry
+      #binding.pry
       number = counter+1
       name = array[counter]
       #binding.pry
@@ -23,7 +23,7 @@ def line(array)
       message = message + msgline
       #binding.pry
       counter += 1
-      binding.pry
+      #binding.pry
     end
    end
    return message
