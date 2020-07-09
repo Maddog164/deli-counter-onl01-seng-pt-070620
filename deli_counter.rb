@@ -10,7 +10,7 @@ def line(array)
     puts "The line is currently empty."
   else
     binding.pry
-    puts "The line is currently: "
+    message = "The line is currently: "
     #binding.pry
     counter = 0
     #binding.pry
@@ -20,10 +20,11 @@ def line(array)
       name = array[counter]
       #binding.pry
       msgline =  "#{number}. " + "#{name} "
-      puts msgline
+      message = message + msgline
       #binding.pry
       counter += 1
       binding.pry
     end
    end
+   return message
 end
