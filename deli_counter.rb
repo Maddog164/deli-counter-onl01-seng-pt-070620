@@ -29,5 +29,4 @@ def take_a_number(array,name)
     arraycount += 1
   end
   puts "Welcome, #{name}. You are number #{arraycount} in line."
-
 end
