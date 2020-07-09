@@ -19,7 +19,7 @@ def line(array)
       number = counter+1
       name = array[counter]
       #binding.pry
-      msgline =  "#{number}. " + "#{name} "
+      msgline =  " #{number}. " + "#{name}"
       message = message + msgline
       #binding.pry
       counter += 1
